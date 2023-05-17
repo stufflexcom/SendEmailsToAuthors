@@ -16,7 +16,6 @@ jobs:
         uses: AidarGatin/github-recent-commits-authors@v1.4
         id: recent-commits-authors
         with:
-          github_repository: OWNER/REPOSITORY # default current repository 
           github_token: ${{ secrets.GH_TOKEN }} # default ''
           days_before: '7' # default 30
           unique: 'true' # default 'true'
